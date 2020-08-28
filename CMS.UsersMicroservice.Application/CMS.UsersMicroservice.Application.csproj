@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CMS.UsersMicroservice.Data\CMS.UsersMicroservice.Data.csproj" />
+    <ProjectReference Include="..\CMS.UsersMicroservice.Models\CMS.UsersMicroservice.Models.csproj" />
+  </ItemGroup>
+
+</Project>
